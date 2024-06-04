@@ -1,0 +1,6 @@
+spring:
+  redis:
+    redisson:
+      #配置文件目录
+      config: classpath:singleServerConfig.yaml
+      #config: classpath:clusterServersConfig.yaml
